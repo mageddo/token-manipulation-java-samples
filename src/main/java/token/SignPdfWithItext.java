@@ -52,10 +52,11 @@ import sun.security.pkcs11.wrapper.PKCS11Exception;
 
 public class SignPdfWithItext {
 
-    private static final String SRC = "src/main/resources/hello.pdf";
-    private static final String DEST = "results/chapter4/hello_token.pdf";
-    private static final String DLL = "c:/windows/system32/dkck201.dll";
-    private static final char[] PASSWORD = "123".toCharArray();
+    private static final String SRC = "C:/pdfsign/1/token-manipulation-java-samples-master/pdf/pdf.pdf";
+    private static final String DEST = "C:/pdfsign/1/token-manipulation-java-samples-master/pdf/assinado/pdf.pdf";
+//    private static final String DLL = "c:/windows/system32/dkck201.dll";
+    private static final String DLL = "C:/Windows/System32/eTPKCS11.dll";
+    private static final char[] PASSWORD = "1234".toCharArray();
 
     public static void main(String[] args) throws IOException, GeneralSecurityException, DocumentException {
 
