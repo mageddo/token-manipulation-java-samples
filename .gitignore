@@ -1,5 +1,5 @@
 .gradle/
 .idea/
 build/
-pdf
+/pdf
 .nb-gradle
